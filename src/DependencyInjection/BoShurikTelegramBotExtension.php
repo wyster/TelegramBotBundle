@@ -58,7 +58,7 @@ class BoShurikTelegramBotExtension extends Extension
     /**
      * {@inheritDoc}
      */
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'boshurik_telegram_bot';
     }
